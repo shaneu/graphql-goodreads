@@ -1,0 +1,30 @@
+{
+  "name": "graphql-goodreads",
+  "version": "1.0.0",
+  "description": "graphql experiment",
+  "main": "serve.js",
+  "scripts": {
+    "start": "nodemon serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaneu/graphql-goodreads.git"
+  },
+  "author": "Shane Unger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaneu/graphql-goodreads/issues"
+  },
+  "homepage": "https://github.com/shaneu/graphql-goodreads#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "node-fetch": "^1.7.3",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "prettier-eslint": "^8.2.0"
+  }
+}
